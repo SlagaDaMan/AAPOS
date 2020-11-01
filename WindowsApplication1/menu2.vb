@@ -175,7 +175,7 @@
             .Items.Add(item)
         End With
 
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -248,7 +248,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -320,7 +320,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -392,7 +392,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -464,7 +464,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -536,7 +536,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        'Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -608,7 +608,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -680,7 +680,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -752,7 +752,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -824,7 +824,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -896,7 +896,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -968,7 +968,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1040,7 +1040,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1112,7 +1112,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1184,7 +1184,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1256,7 +1256,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1328,7 +1328,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1400,7 +1400,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1472,7 +1472,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1544,7 +1544,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1616,7 +1616,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1692,7 +1692,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1764,7 +1764,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1836,7 +1836,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1908,7 +1908,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -1980,7 +1980,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '   Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2052,7 +2052,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2124,7 +2124,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2196,7 +2196,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2268,7 +2268,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2340,7 +2340,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2412,7 +2412,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2484,7 +2484,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2556,7 +2556,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2628,7 +2628,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2700,7 +2700,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2844,7 +2844,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2916,7 +2916,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '   Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -2988,7 +2988,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3060,7 +3060,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3132,7 +3132,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3276,7 +3276,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3348,7 +3348,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3420,7 +3420,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3492,7 +3492,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3564,7 +3564,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '   Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3636,7 +3636,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3708,7 +3708,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3780,7 +3780,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3852,7 +3852,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '   Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3924,7 +3924,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -3996,7 +3996,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -4068,7 +4068,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -4140,7 +4140,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -4212,7 +4212,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '  Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -4284,7 +4284,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        ' Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14
@@ -4356,7 +4356,7 @@
             Dim item As New ListViewItem(New String() {Form1.itemNo.ToString, discription, "", "R " & Price})
             .Items.Add(item)
         End With
-        Form1.ListBox1.Items.Add(discription)
+        '   Form1.ListBox1.Items.Add(discription)
         Form1.count = Form1.count + Price
         Form1.lblSubTotal.Text = "R" + Form1.count.ToString("0.00")
         ' tax = count * 0.14

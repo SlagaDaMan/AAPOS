@@ -36,6 +36,7 @@ Partial Class frmMorefunctions
         Me.btnClose = New System.Windows.Forms.Button()
         Me.btnAccounts = New System.Windows.Forms.Button()
         Me.btnExpenses = New System.Windows.Forms.Button()
+        Me.btnPromotions = New System.Windows.Forms.Button()
         CType(Me.AAPOSDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SalesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AutogenBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -45,34 +46,34 @@ Partial Class frmMorefunctions
         '
         Me.btnPrinter.Location = New System.Drawing.Point(122, 7)
         Me.btnPrinter.Name = "btnPrinter"
-        Me.btnPrinter.Size = New System.Drawing.Size(379, 87)
+        Me.btnPrinter.Size = New System.Drawing.Size(379, 66)
         Me.btnPrinter.TabIndex = 0
         Me.btnPrinter.Text = "Printer Settings"
         Me.btnPrinter.UseVisualStyleBackColor = True
         '
         'btnReprintLastSale
         '
-        Me.btnReprintLastSale.Location = New System.Drawing.Point(122, 100)
+        Me.btnReprintLastSale.Location = New System.Drawing.Point(122, 79)
         Me.btnReprintLastSale.Name = "btnReprintLastSale"
-        Me.btnReprintLastSale.Size = New System.Drawing.Size(379, 87)
+        Me.btnReprintLastSale.Size = New System.Drawing.Size(379, 70)
         Me.btnReprintLastSale.TabIndex = 1
         Me.btnReprintLastSale.Text = "Reprint Last Sale"
         Me.btnReprintLastSale.UseVisualStyleBackColor = True
         '
         'btnSuspendSale
         '
-        Me.btnSuspendSale.Location = New System.Drawing.Point(122, 193)
+        Me.btnSuspendSale.Location = New System.Drawing.Point(122, 155)
         Me.btnSuspendSale.Name = "btnSuspendSale"
-        Me.btnSuspendSale.Size = New System.Drawing.Size(379, 87)
+        Me.btnSuspendSale.Size = New System.Drawing.Size(379, 71)
         Me.btnSuspendSale.TabIndex = 2
         Me.btnSuspendSale.Text = "Suspend sale"
         Me.btnSuspendSale.UseVisualStyleBackColor = True
         '
         'btnViewPendingSales
         '
-        Me.btnViewPendingSales.Location = New System.Drawing.Point(122, 286)
+        Me.btnViewPendingSales.Location = New System.Drawing.Point(122, 232)
         Me.btnViewPendingSales.Name = "btnViewPendingSales"
-        Me.btnViewPendingSales.Size = New System.Drawing.Size(379, 87)
+        Me.btnViewPendingSales.Size = New System.Drawing.Size(379, 66)
         Me.btnViewPendingSales.TabIndex = 3
         Me.btnViewPendingSales.Text = "View Pending Sales"
         Me.btnViewPendingSales.UseVisualStyleBackColor = True
@@ -98,10 +99,15 @@ Partial Class frmMorefunctions
         Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
         Me.TableAdapterManager.Company_DetailsTableAdapter = Nothing
         Me.TableAdapterManager.ExpensesTableAdapter = Nothing
+        Me.TableAdapterManager.ItemTableAdapter = Nothing
         Me.TableAdapterManager.MenuTableAdapter = Nothing
         Me.TableAdapterManager.SalesTableAdapter = Me.SalesTableAdapter
         Me.TableAdapterManager.StatusTableAdapter = Nothing
         Me.TableAdapterManager.Stock_ItemsTableAdapter = Nothing
+        Me.TableAdapterManager.SupplierDetailsTableAdapter = Nothing
+        Me.TableAdapterManager.SupplierPayOutTransectionsTableAdapter = Nothing
+        Me.TableAdapterManager.SuppliersTableAdapter = Nothing
+        Me.TableAdapterManager.SupplierTransectionsTableAdapter = Nothing
         Me.TableAdapterManager.Till_SetupTableAdapter = Nothing
         Me.TableAdapterManager.TotalsTableAdapter = Nothing
         Me.TableAdapterManager.UpdateOrder = WindowsApplication1.AAPOSDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
@@ -127,27 +133,37 @@ Partial Class frmMorefunctions
         '
         'btnAccounts
         '
-        Me.btnAccounts.Location = New System.Drawing.Point(122, 379)
+        Me.btnAccounts.Location = New System.Drawing.Point(122, 304)
         Me.btnAccounts.Name = "btnAccounts"
-        Me.btnAccounts.Size = New System.Drawing.Size(379, 87)
+        Me.btnAccounts.Size = New System.Drawing.Size(379, 71)
         Me.btnAccounts.TabIndex = 5
         Me.btnAccounts.Text = "Accounts"
         Me.btnAccounts.UseVisualStyleBackColor = True
         '
         'btnExpenses
         '
-        Me.btnExpenses.Location = New System.Drawing.Point(122, 472)
+        Me.btnExpenses.Location = New System.Drawing.Point(122, 381)
         Me.btnExpenses.Name = "btnExpenses"
-        Me.btnExpenses.Size = New System.Drawing.Size(379, 87)
+        Me.btnExpenses.Size = New System.Drawing.Size(379, 65)
         Me.btnExpenses.TabIndex = 6
         Me.btnExpenses.Text = "Expenses"
         Me.btnExpenses.UseVisualStyleBackColor = True
+        '
+        'btnPromotions
+        '
+        Me.btnPromotions.Location = New System.Drawing.Point(122, 452)
+        Me.btnPromotions.Name = "btnPromotions"
+        Me.btnPromotions.Size = New System.Drawing.Size(379, 65)
+        Me.btnPromotions.TabIndex = 7
+        Me.btnPromotions.Text = "Promotions"
+        Me.btnPromotions.UseVisualStyleBackColor = True
         '
         'frmMorefunctions
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(639, 569)
+        Me.ClientSize = New System.Drawing.Size(639, 588)
+        Me.Controls.Add(Me.btnPromotions)
         Me.Controls.Add(Me.btnExpenses)
         Me.Controls.Add(Me.btnAccounts)
         Me.Controls.Add(Me.btnClose)
@@ -178,4 +194,5 @@ Partial Class frmMorefunctions
     Friend WithEvents btnClose As System.Windows.Forms.Button
     Friend WithEvents btnAccounts As System.Windows.Forms.Button
     Friend WithEvents btnExpenses As System.Windows.Forms.Button
+    Friend WithEvents btnPromotions As Button
 End Class
